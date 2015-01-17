@@ -1,4 +1,3 @@
-#define F_CPU 16000000UL
 #include <util/delay.h>
 
 #include "pinconfig.h"
@@ -7,6 +6,7 @@
 
 int main()
 {
-	USART_init(MYUBRR);
+	int a;
+	if(a) USART_init(MYUBRR);
 	return 0;
 }

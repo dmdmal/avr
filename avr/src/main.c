@@ -6,7 +6,7 @@
 
 int main()
 {
-	int a;
-	if(a) USART_init(MYUBRR);
+	int a = 0;
+	if(a) USART_init(UBRR);
 	return 0;
 }

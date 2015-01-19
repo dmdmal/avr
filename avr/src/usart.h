@@ -2,6 +2,7 @@
 #define USART_H
 
 #include <avr/io.h>
+#include <avr/iom2560.h>
 #include <avr/interrupt.h>
 
 void USART_Init(unsigned int ubrr);

@@ -4,9 +4,8 @@
 #include "usart.h"
 
 
-int main()
-{
-	int a = 0;
-	if(a) USART_init(UBRR);
+int main(){
+	USART_init(UBRR);
+	USART_Transmit();
 	return 0;
 }
